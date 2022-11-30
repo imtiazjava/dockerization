@@ -48,11 +48,9 @@ step9:open the browser and test it.
 
 -STEP1: Create Docker compose file as below
 --------------------------------------------------------
-
--STEP2: OPEN THE TERMINAL 
-
-> docker-compose up --build
-----------------------------------------------------
+- STEP2 : OPEN THE TERMINAL 
+  > docker-compose up --build
+---------------------------------------------------
 
 -STEP3: OPEN DOCKER-DESKTOP AND CHECK
 ---------------------------------------------------

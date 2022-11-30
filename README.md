@@ -1,21 +1,31 @@
+# DOCKER
+--------------------------------------------
+
+> docker pull mysql:8.0
+
+> docker run --name d-mysql -p 3307:3306 -e MYSQL_ROOT_PASSWORD=my_secret -d mysql:8.0
+
+spring boot project link: https://github.com/imtiazjava/springboot-with-microservice1.git
+
+
 # dockerization
-- step1:
+- Step1:
 D:\workspace\dockerization>docker run -p 3307:3306 --name mysqldb mysql
 ----------------------------------------------------------------------------
 
-- step2:
+- Step2:
 D:\workspace\dockerization>docker rm mysqldb
 ---------------------------------------------------------------------------
 
-- step3:
+- Step3:
 D:\workspace\dockerization>docker run -p 3307:3306 --name mysqldb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=test mysql
 ----------------------------------------------------------------------------
 
-- step4:
+- Step4:
 D:\workspace\dockerization>docker rm -f mysqldb
 --------------------------------------------------------------------------------
 
-- step5:
+- Step5:
 D:\workspace\dockerization>docker run -d -p 3307:3306 --name mysqldb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=test mysql
 
 Now the above command will create mysql container and move in detached /background 

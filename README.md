@@ -45,29 +45,27 @@ step9:open the browser and test it.
 ---------------------------------------------------
 
 # DOCKERCOMPOSE
+---------------------------------------------------
 
--STEP1: Create Docker compose file as below
---------------------------------------------------------
+- STEP1: Create Docker compose file as below
+
 - STEP2 : OPEN THE TERMINAL 
   > docker-compose up --build
----------------------------------------------------
 
--STEP3: OPEN DOCKER-DESKTOP AND CHECK
----------------------------------------------------
+- STEP3: OPEN DOCKER-DESKTOP AND CHECK
 
--STEP4: OPEN THE MYSQL AND CHECK
----------------------------------------------------
+- STEP4: OPEN THE MYSQL AND CHECK
 
--STEP5: OPEN THE BROWSER AND TEST THE FOLLOWING ENDPOINTS:
------------------------------------------------
-
+- STEP5: OPEN THE BROWSER AND TEST THE FOLLOWING ENDPOINTS:
+# ENDPOINTS :
 GET : http://localhost:8003/api/msg
 
 GET : http://localhost:8003/api/products
 
 POST: http://localhost:8003/api/save
 
-BODY{
+BODY {
+
 "id":1006,
 "name":"abc",
 "price":30000

@@ -44,17 +44,17 @@ step9:open the browser and test it.
 - URL: http://localhost:8003/api/
 ---------------------------------------------------
 
-3 DOCKERCOMPOSE
+# DOCKERCOMPOSE
 
 -STEP1: Create Docker compose file as below
 --------------------------------------------------------
 
 -STEP2: OPEN THE TERMINAL 
+
 > docker-compose up --build
-
 ----------------------------------------------------
--STEP3: OPEN DOCKER-DESKTOP AND CHECK
 
+-STEP3: OPEN DOCKER-DESKTOP AND CHECK
 ---------------------------------------------------
 
 -STEP4: OPEN THE MYSQL AND CHECK

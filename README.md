@@ -44,17 +44,24 @@ step9:open the browser and test it.
 - URL: http://localhost:8003/api/
 ---------------------------------------------------
 
-DOCKERCOMPOSE
+3 DOCKERCOMPOSE
+
 -STEP1: Create Docker compose file as below
+--------------------------------------------------------
 
 -STEP2: OPEN THE TERMINAL 
 > docker-compose up --build
 
+----------------------------------------------------
 -STEP3: OPEN DOCKER-DESKTOP AND CHECK
 
+---------------------------------------------------
+
 -STEP4: OPEN THE MYSQL AND CHECK
+---------------------------------------------------
 
 -STEP5: OPEN THE BROWSER AND TEST THE FOLLOWING ENDPOINTS:
+-----------------------------------------------
 
 GET : http://localhost:8003/api/msg
 
